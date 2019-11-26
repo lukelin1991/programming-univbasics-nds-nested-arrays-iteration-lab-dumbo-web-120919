@@ -38,6 +38,7 @@ def total_even_pairs(src)
     if (src[row_index][0] % 2 == 0) && (src[row_index][1] % 2 == 0)
       new_sum = sum(src[row_index][0] + src[row_index][1])
     end
+    row_index += 1
   end
   return new_sum
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
